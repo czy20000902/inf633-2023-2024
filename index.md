@@ -173,11 +173,11 @@ Copy this file to use it as a base for your own brushes, by changing the name of
 ### Examples
 
 <p align="center">
-    <img src="/01-TerrainBrushGifs/simple-brush.gif" width="200">
+    <img src="01-TerrainBrushGifs/simple-brush.gif" width="200">
 &nbsp; &nbsp;
-    <img src="/01-TerrainBrushGifs/fixed-brush.gif" width="200">
+    <img src="01-TerrainBrushGifs/fixed-brush.gif" width="200">
 &nbsp; &nbsp;
-    <img src="/01-TerrainBrushGifs/gauss-brush.gif" width="200">
+    <img src="01-TerrainBrushGifs/gauss-brush.gif" width="200">
 </p>
 
 <p align="center">
