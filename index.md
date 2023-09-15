@@ -1,4 +1,4 @@
-# INF633 - Advanced 3D Graphics (2022 - 2023)
+# INF633 - Advanced 3D Graphics (2023 - 2024)
 
 ------
 
@@ -181,15 +181,15 @@ Copy this file to use it as a base for your own brushes, by changing the name of
 </p>
 
 <p align="center">
-    <img src="https://edualvarado.github.io/inf633-2022-2023/01-TerrainBrushGifs/smooth-brush.gif" width="200">
+    <img src="01-TerrainBrushGifs/smooth-brush.gif" width="200">
 &nbsp; &nbsp;
-    <img src="https://edualvarado.github.io/inf633-2022-2023/01-TerrainBrushGifs/random-brush.gif" width="200">
+    <img src="01-TerrainBrushGifs/random-brush.gif" width="200">
 &nbsp; &nbsp;
-    <img src="https://edualvarado.github.io/inf633-2022-2023/01-TerrainBrushGifs/variablegauss-brush.gif" width="200">
+    <img src="01-TerrainBrushGifs/variablegauss-brush.gif" width="200">
 </p>
 
 <p align="center">
-    <img src="https://edualvarado.github.io/inf633-2022-2023/01-TerrainBrushGifs/volcano.gif" width="400">
+    <img src="01-TerrainBrushGifs/volcano.gif" width="400">
 </p>
 
 <a name="Session01Useful"></a>
@@ -254,7 +254,7 @@ Like in the previous session, you can use this file as a base for your own brush
 You can set the object that will be instantiated by drag-and-dropping a model in the `Object_prefab` parameter of the terrain at run-time. A few models of trees are already in the project, in `04 - Terrain Assets > Environment > Trees` and then the file with a tree icon in one of the three sub-folders.
 
 <p align="center">
-    <img src="https://edualvarado.github.io/inf633-2022-2023/02-InstancesBrushGifs/standard_trees.png" width="400">
+    <img src="02-InstancesBrushGifs/standard_trees.png" width="400">
 </p>
 
 To remove objects, you can use the default tools provided in the original terrain editor by Unity. For this, select the terrain and go to the `terrain > Paint trees`
@@ -274,11 +274,11 @@ tab (in the inspector). You can then shift-click on the terrain to remove object
 - You can try to create arrays of elements, and place them according to these rules (array with [palm, small tree, tall tree], and place them as a function of height ranges as shown in the figure below).
 
 <p align="center">
-    <img src="https://edualvarado.github.io/inf633-2022-2023/02-InstancesBrushGifs/height_dependent.gif" width="400">
+    <img src="02-InstancesBrushGifs/height_dependent.gif" width="400">
 </p>
 
 <p align="center">
-    <img src="https://edualvarado.github.io/inf633-2022-2023/02-InstancesBrushGifs/height_dependent_2.gif" width="400">
+    <img src="02-InstancesBrushGifs/height_dependent_2.gif" width="400">
 </p>
 
 ### Object ideas
@@ -334,13 +334,13 @@ However, you can use IK to animate whole characters as well. Procedural animatio
 In this session, we will learn to convert this...
 
 <p align="center">
-    <img src="https://edualvarado.github.io/inf633-2022-2023/03-CharacterAnimation/no-procedural.gif" width="400">
+    <img src="03-CharacterAnimation/no-procedural.gif" width="400">
 </p>
 
 ...to this...
 
 <p align="center">
-    <img src="https://edualvarado.github.io/inf633-2022-2023/03-CharacterAnimation/procedural.gif" width="400">
+    <img src="03-CharacterAnimation/procedural.gif" width="400">
 </p>
 
 All the necessary files will be in the folder `03 - Character Animation`. Let's start!
@@ -353,9 +353,9 @@ First, let's go to `03 - Character Animation > 00 - IK Demonstration`. In the sc
 This IK technique is called **Fabric IK**. A forward and backward pass are used to place an end-effector on a **target**, while a **pole** is used to define one of the multiple solutions that one target may contain.
 
 <p align="center">
-    <img src="https://edualvarado.github.io/inf633-2022-2023/03-CharacterAnimation/basic-ik-target-1.gif" width="200">
+    <img src="03-CharacterAnimation/basic-ik-target-1.gif" width="200">
 	&nbsp; &nbsp;
-    <img src="https://edualvarado.github.io/inf633-2022-2023/03-CharacterAnimation/basic-ik-pole-1.gif" width="200">
+    <img src="03-CharacterAnimation/basic-ik-pole-1.gif" width="200">
 	&nbsp; &nbsp;
 </p>
 
@@ -375,7 +375,7 @@ All the necessary files are in `03 - Character Animation > 01 - Quadruped with f
 At the beginning, moving the **goal** will make the character to follow it without any animation, floating around and going inside the terrain when it gets higher. Your task is to make this character fully responsive when moving the goal. Again, these scripts contain code snippets that you will need to complete. All the information that you need to understand the code is already included as comments along the scripts.
 
 <p align="center">
-    <img src="https://edualvarado.github.io/inf633-2022-2023/03-CharacterAnimation/procedural-2.gif" width="400">
+    <img src="03-CharacterAnimation/procedural-2.gif" width="400">
 </p>
 
 Once you have it, think about particular applications. Characters that follow autonomously a piece of food, or animals that run away from "anti-goals" such as predators. Could we even use some learning-based approach to teach them to follow certain assets? There are many options! We will see more in the next session.
