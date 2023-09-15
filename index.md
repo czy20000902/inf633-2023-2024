@@ -2,7 +2,7 @@
 
 ------
 
-[Github Repository](https://github.com/edualvarado/inf633-2022-2023) | [Github Page](https://edualvarado.github.io/inf633-2022-2023/) | [Moodle](https://moodle.polytechnique.fr/enrol/index.php?id=14970)
+[Github Repository](https://github.com/Paul-Hubert/inf633-2023-2024/) | [Github Page](https://paul-hubert.github.io/inf633-2023-2024/) | [Moodle](https://moodle.polytechnique.fr/course/view.php?id=17662)
 
 ------
 
@@ -45,11 +45,11 @@
 
 ### Introduction
 
-Welcome to the official page for the lab sessions of INF633 for the course 2022-2023! 
+Welcome to the official page for the lab sessions of INF633 for the course 2023-2024! 
 
 The goal of this project is to create, starting from a flat empty terrain, one with interesting features, objects and dynamic, living creatures all interacting together. For this, multiple edition tools will be created and basic principles of animation and crowd simulation used to give life to the virtual world.
 
-In this page, you will find the same introduction to install and setup Unity that you can find also in the README.md of the repository at [https://github.com/edualvarado/inf633-2022-2023](https://github.com/edualvarado/inf633-2022-2023), and also the description and content for each lab session.
+In this page, you will find the same introduction to install and setup Unity that you can find also in the README.md of the repository at [https://github.com/Paul-Hubert/inf633-2023-2024](https://github.com/Paul-Hubert/inf633-2023-2024), and also the description and content for each lab session.
 
 ### Installing Unity
 
@@ -173,11 +173,11 @@ Copy this file to use it as a base for your own brushes, by changing the name of
 ### Examples
 
 <p align="center">
-    <img src="https://edualvarado.github.io/inf633-2022-2023/01-TerrainBrushGifs/simple-brush.gif" width="200">
+    <img src="/01-TerrainBrushGifs/simple-brush.gif" width="200">
 &nbsp; &nbsp;
-    <img src="https://edualvarado.github.io/inf633-2022-2023/01-TerrainBrushGifs/fixed-brush.gif" width="200">
+    <img src="/01-TerrainBrushGifs/fixed-brush.gif" width="200">
 &nbsp; &nbsp;
-    <img src="https://edualvarado.github.io/inf633-2022-2023/01-TerrainBrushGifs/gauss-brush.gif" width="200">
+    <img src="/01-TerrainBrushGifs/gauss-brush.gif" width="200">
 </p>
 
 <p align="center">
