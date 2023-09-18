@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GaussianIncreaseBrush : TerrainBrush {
 
-    public float intensity = 50.0f;
+    public float intensity = 5.0f;
     public float spread = 3.0f;
 
     public override void draw(int x, int z) {
@@ -16,7 +16,7 @@ public class GaussianIncreaseBrush : TerrainBrush {
 
                 float gauss = Mathf.Exp(-(distance * distance) / (2.0f * spread * spread));
 
-                terrain.set(x + xi, z + zi, gauss * intensity);
+                terrain.set(x + xi, z + zi, height + gauss * intensity);
             }
         }
     }
